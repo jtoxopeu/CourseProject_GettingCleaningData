@@ -100,4 +100,4 @@ means <- data.frame(t(means))
 ## subject id is at the end of the row name
 
 ## Write tidy data to file.
-write.csv(means, "./tidydata.csv")
+write.table(means, "./tidydata.txt")
